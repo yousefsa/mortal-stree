@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "M";
 var adminprefix = 'M'
 
-const developers = ["537783570941476864"]
+const developers = ["412547940654252053"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
